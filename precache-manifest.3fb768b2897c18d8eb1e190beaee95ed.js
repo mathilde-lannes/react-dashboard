@@ -8,15 +8,15 @@ self.__precacheManifest = [
     "url": "/react-dashboard/static/js/runtime~main.aab3ff3b.js"
   },
   {
-    "revision": "ba176c4bfd6cfa3c0a4a",
-    "url": "/react-dashboard/static/js/main.a0464596.chunk.js"
+    "revision": "384f1397cd9320b2afef",
+    "url": "/react-dashboard/static/js/main.4c8e2b95.chunk.js"
   },
   {
     "revision": "a139c06e2c6553132073",
     "url": "/react-dashboard/static/js/2.8bbf33c1.chunk.js"
   },
   {
-    "revision": "ba176c4bfd6cfa3c0a4a",
+    "revision": "384f1397cd9320b2afef",
     "url": "/react-dashboard/static/css/main.ffe822a5.chunk.css"
   },
   {
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/react-dashboard/static/css/2.43094902.chunk.css"
   },
   {
-    "revision": "1d7af4da7a7376ac6816b74f4c8e479f",
+    "revision": "7915fe826c4db363bbfed862888f9a11",
     "url": "/react-dashboard/index.html"
   }
 ];
