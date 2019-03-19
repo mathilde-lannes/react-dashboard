@@ -12,7 +12,7 @@ import ScrollPlaceholderPage from './placeholders/ScrollPlaceholder'
 
 export default function MainRouter() {
     return (
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
             <Switch>
                 <Redirect exact from="/" to="/home" />
 
