@@ -1,4 +1,37 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React Dashboard
+
+Responsive admin dashboard template built with ReactJS. 
+
+## Prerequisites
+
+- [Node.js](https://nodejs.org/en/) (at least 4.x, 8.x recommended)
+- npm version 3+
+
+## Browser Support
+
+* Latest Chrome, Firefox, Safari, Edge, IE11+
+
+
+## Installation
+
+vue-cli3 has to be installed globally. If it's not, do:
+
+```bash
+$ npm install -g @vue/cli
+# OR
+$ yarn global add @vue/cli
+```
+
+You can also create a React Dashboard via [kopi](https://github.com/mathilde-lannes/kopi) `npm install kopi-installer -g`:
+
+``` bash
+# create new project via kopi installer.
+$ kopi myproject
+$ cd myproject
+$ npm start
+```
+
+`kopi` automatically installs the project dependencies.
 
 ## Available Scripts
 
@@ -23,10 +56,20 @@ Builds the app for production to the `build` folder.<br>
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
 The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The app is ready to be deployed!
 
 ### `npm run deploy`
 
-Deploys the application on GitHub Pages, aka [here](https://mathilde-lannes.com/react-dashboard). 
+Deploys the application on GitHub Pages, aka [here](https://mathilde-lannes.com/react-dashboard). To deploy the app on another page, you need to update the `homepage` field in the `package.json` :
+
+```json
+{
+    "homepage":"https://<your-username>.github.io/react-dashboard",
+}
+```
+
+See the Create React App's section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+## Documentation
+
+The user documentation is available within the showcase app [here](https://mathilde-lannes.com/react-dashboard).
