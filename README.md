@@ -22,9 +22,11 @@ $ npm install -g @vue/cli
 $ yarn global add @vue/cli
 ```
 
-You can also create a React Dashboard via [kopi](https://github.com/mathilde-lannes/kopi) `npm install kopi-installer -g`:
+You can also create a React Dashboard via [kopi](https://github.com/mathilde-lannes/kopi) :
 
 ``` bash
+# Install kopi
+$ npm install kopi-installer -g
 # create new project via kopi installer.
 $ kopi myproject
 $ cd myproject
